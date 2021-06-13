@@ -56,10 +56,10 @@ namespace AnalizadorLexico
             // 
             // Tresult
             // 
-            this.Tresult.Location = new System.Drawing.Point(434, 12);
+            this.Tresult.Location = new System.Drawing.Point(434, 259);
             this.Tresult.Multiline = true;
             this.Tresult.Name = "Tresult";
-            this.Tresult.Size = new System.Drawing.Size(335, 426);
+            this.Tresult.Size = new System.Drawing.Size(335, 179);
             this.Tresult.TabIndex = 3;
             // 
             // TCodigo

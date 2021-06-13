@@ -20,22 +20,14 @@ namespace AnalizadorLexico
         private void BAnalizar_Click(object sender, EventArgs e)
         {
             string texto;
+            List<string> resultado = new List<string>();
             texto = TCodigo.Text;
             Analizador Analiza = new Analizador();
             Analiza.Analizador_cadena(texto);
 
            Tresult.Text= Analiza.generarLista();
-            //comen.Text = analiz.getRetorno();
+           
 
-
-            //lis_toks = new List<Token>();
-            //lis_toks = analiz.getListaTokens();
-
-            //for (int i = 0; i < lis_toks.Count; i++)
-            //{
-            //    Token actual = lis_toks.ElementAt(i);
-            //    MessageBox.Show("[Lexema:" + actual.getLexema() + ",IdToken: " + actual.getIdToken() + ",Linea: " + actual.getLinea() + "]", "des");
-            //}
         }
     }
 }

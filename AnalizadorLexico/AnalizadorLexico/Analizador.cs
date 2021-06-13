@@ -383,11 +383,27 @@ namespace AnalizadorLexico
             for (int i = 0; i < listaTokens.Count; i++)
             {
                 Token actual = listaTokens.ElementAt(i);
-                retorno += "[Lexema:" + actual.getLexema() + ",IdToken: " + actual.getIdToken() + ",Linea: " + actual.getLinea() + "]" + Environment.NewLine;
+                retorno += "[*Linea: " + actual.getLinea() +", * Lexema:" + actual.getLexema() + ", *IdToken: " + actual.getIdToken()  + "]" + Environment.NewLine;
             }
             return retorno;
         }
 
+        //public List<string> RgenerarLista()
+        //{
+        //    var lista = new List<string>();
+         
+        //   // string retorno = "";
+        //    for (int i = 0; i < listaTokens.Count; i++)
+        //    {
+
+        //        Token actual = listaTokens.ElementAt(i);
+        //        lista.Add(actual.getLexema());
+        //        lista.Add(actual.getIdToken());
+        //        lista.Add(actual.getLinea().ToString());
+        //        //retorno += "[Lexema:" + actual.getLexema() + ",IdToken: " + actual.getIdToken() + ",Linea: " + actual.getLinea() + "]" + Environment.NewLine;
+        //    }
+        //    return lista;
+        //}
 
 
 
