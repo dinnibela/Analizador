@@ -1,0 +1,10 @@
+D:\UTESA 22021\Compiladores\Analizador\AnalizadorLexico\AnalizadorLexico\obj\Debug\AnalizadorLexico.csprojAssemblyReference.cache
+D:\UTESA 22021\Compiladores\Analizador\AnalizadorLexico\AnalizadorLexico\obj\Debug\AnalizadorLexico.FAnalizador.resources
+D:\UTESA 22021\Compiladores\Analizador\AnalizadorLexico\AnalizadorLexico\obj\Debug\AnalizadorLexico.Properties.Resources.resources
+D:\UTESA 22021\Compiladores\Analizador\AnalizadorLexico\AnalizadorLexico\obj\Debug\AnalizadorLexico.csproj.GenerateResource.cache
+D:\UTESA 22021\Compiladores\Analizador\AnalizadorLexico\AnalizadorLexico\obj\Debug\AnalizadorLexico.csproj.CoreCompileInputs.cache
+D:\UTESA 22021\Compiladores\Analizador\AnalizadorLexico\AnalizadorLexico\bin\Debug\AnalizadorLexico.exe.config
+D:\UTESA 22021\Compiladores\Analizador\AnalizadorLexico\AnalizadorLexico\bin\Debug\AnalizadorLexico.exe
+D:\UTESA 22021\Compiladores\Analizador\AnalizadorLexico\AnalizadorLexico\bin\Debug\AnalizadorLexico.pdb
+D:\UTESA 22021\Compiladores\Analizador\AnalizadorLexico\AnalizadorLexico\obj\Debug\AnalizadorLexico.exe
+D:\UTESA 22021\Compiladores\Analizador\AnalizadorLexico\AnalizadorLexico\obj\Debug\AnalizadorLexico.pdb
