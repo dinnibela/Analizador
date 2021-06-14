@@ -30,10 +30,8 @@ namespace AnalizadorLexico
         private void InitializeComponent()
         {
             this.BAnalizar = new System.Windows.Forms.Button();
-            this.DGV_Result = new System.Windows.Forms.DataGridView();
             this.Tresult = new System.Windows.Forms.TextBox();
             this.TCodigo = new System.Windows.Forms.RichTextBox();
-            ((System.ComponentModel.ISupportInitialize)(this.DGV_Result)).BeginInit();
             this.SuspendLayout();
             // 
             // BAnalizar
@@ -46,20 +44,12 @@ namespace AnalizadorLexico
             this.BAnalizar.UseVisualStyleBackColor = true;
             this.BAnalizar.Click += new System.EventHandler(this.BAnalizar_Click);
             // 
-            // DGV_Result
-            // 
-            this.DGV_Result.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.DGV_Result.Location = new System.Drawing.Point(434, 12);
-            this.DGV_Result.Name = "DGV_Result";
-            this.DGV_Result.Size = new System.Drawing.Size(335, 426);
-            this.DGV_Result.TabIndex = 2;
-            // 
             // Tresult
             // 
-            this.Tresult.Location = new System.Drawing.Point(434, 259);
+            this.Tresult.Location = new System.Drawing.Point(434, 10);
             this.Tresult.Multiline = true;
             this.Tresult.Name = "Tresult";
-            this.Tresult.Size = new System.Drawing.Size(335, 179);
+            this.Tresult.Size = new System.Drawing.Size(335, 428);
             this.Tresult.TabIndex = 3;
             // 
             // TCodigo
@@ -80,11 +70,9 @@ namespace AnalizadorLexico
             this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this.TCodigo);
             this.Controls.Add(this.Tresult);
-            this.Controls.Add(this.DGV_Result);
             this.Controls.Add(this.BAnalizar);
             this.Name = "FAnalizador";
             this.Text = "Analizador";
-            ((System.ComponentModel.ISupportInitialize)(this.DGV_Result)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -92,7 +80,6 @@ namespace AnalizadorLexico
 
         #endregion
         private System.Windows.Forms.Button BAnalizar;
-        private System.Windows.Forms.DataGridView DGV_Result;
         private System.Windows.Forms.TextBox Tresult;
         private System.Windows.Forms.RichTextBox TCodigo;
     }
